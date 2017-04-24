@@ -20,7 +20,7 @@ const initialState = {
 	todos: [{text:'Learn React', time: new Date().toLocaleString()},], 
 	todo: {text:'', time:''},
 }
-export const todoReducer = (state=initialState, action) => {
+const todoReducer = (state=initialState, action) => {
 	const {todos, todo} = state;
 	const {type, payload} = action;
 	switch(type) {
@@ -37,3 +37,5 @@ export const todoReducer = (state=initialState, action) => {
 		default: return state
 	}
 }
+
+export default todoReducer;

@@ -16,6 +16,8 @@ class App extends Component {
               <li><Link to="/filtertable">Filter table</Link></li>
               <br/>
               <li><Link to="/todo">To-do list</Link></li>
+              <br/>
+              <li><Link to="/github-finder">Github finder</Link></li>
             </ul>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { actionCreators } from '../redux/todoRedux';
 import '../css/section.css';
 const mapStateToProps = (state) => ({
-	todos: state.todos,
+	todos: state.todo.todos,
 });
 const mapDispatchToProps = (dispatch) => ({
 	onDeleteTodo: (index) => {

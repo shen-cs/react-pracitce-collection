@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { actionCreators } from '../redux/todoRedux';
 const mapStateToProps = (state) => ({
-	todo: state.todo.text,
+	todo: state.todo.todo.text,
 });
 const mapDispatchToProps = (dispatch, props) => ({
 	onChangeText: (e) => {
