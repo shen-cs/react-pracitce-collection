@@ -25,3 +25,11 @@
 .container {
   margin-left: 10px;
 }
+#spinner {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+}
